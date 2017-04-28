@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+    <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    hello world!!
+    <p>This is the most minimal example of Dropzone. The upload in this example doesn't work, because there is no actual server to handle the file upload.</p>
+    <!-- Change /upload-target to your upload address -->
+    <form action="/getImage" class="dropzone" id="myDropzone" method="post" enctype="multipart/form-data"></form>
+    {% csrf_token %}
+    <script>
+        new Dropzone("#myDropzone", {
+            maxFilesize: 2, // MB
+            init: function() {
+                this.on("success", function(file, responseText) {
+                    window.location.href = "/board";
+                });
+            }
+        });
+    </script>
 </body>
 </html>
