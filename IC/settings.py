@@ -105,6 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/uploads')
+MEDIA_URL = '/static/uploads/'
+
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Asia/Seoul'
