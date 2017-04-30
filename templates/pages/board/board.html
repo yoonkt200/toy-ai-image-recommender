@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-    {% for element in list %}
-		<p>{{element.testfield}}</p>
-	{% endfor %}
-    {{tensor}}
-</body>
-</html>
+<HTML>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css">
+    <link href=’http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel=‘stylesheet’ type=‘text/css’>
+    <link rel="stylesheet" type="text/css" href="/static/common/iu.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pages/projects/projectGallery_main.css">
+    <link rel="stylesheet" type="text/css" href="/static/project/pagination.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/compositions/project_ver2.css">
+    <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="//cdn.iueditor.org/js/iueditor-2.1.js"></script>
+    <script type="text/javascript">window.IUEditor || document.write('<script src="//s3.iueditor.org/js/iueditor-2.1.js">\x3C/script>')</script>
+
+  </head>
+  <body>
+    <div class="iu-page projectGallery_main">
+      <header class="header">
+      </header>
+      <section class="iu-page-content page-content">
+        <section class="iu-section section-227">
+          <div class="iu-center-box center-box-228">
+            <div class="iu-text projectgallery_title">
+              <h1>IMAGE GALLERY</h1>
+            </div>
+            <div class="iu-box project_search">
+              <div class="iu-text text-260">
+                <p>이미지 검색</p>
+              </div>
+              <div class="iu-box box-262">
+                <input class="iu-pg-text-field  project_search_input" type="text" placeholder="이미지명 혹은 태그 입력">
+              </div>
+              <div class="iu-box box-263">
+                <input class="iux-has-hover iu-pg-button  project_search_btn" type="submit" value="찾기" style="box-shadow: 0 0 0px 0px transparent;">
+              </div>
+            </div>
+            <div class="iu-collection collection-266">
+              {% for image in images %}
+              	<div class="iu-import import-267">
+              		<a class="iux-inner-link" href="/">
+              			{% include './project_ver2.html' %}
+              		</a>
+              	</div>
+              <style>
+              @media screen and (max-width: 959px) {
+              	.thumbnail {
+              		max-width: 135px;
+              	}
+              }
+              </style>
+              {% endfor %}
+            </div>
+            <nav class="iu-pg-page-link-set  pagination">
+{#              <div>#}
+{#              	{% if projects_page.has_other_pages %}#}
+{#              		<ul>#}
+{#              		<a class="first"><li>&#60;&#60;</li></a>#}
+{#              		<a class="prev"><li>&#60;</li></a>#}
+{#              		{% for i in projects_page.paginator.page_range %}#}
+{#              			{% if i == currentPage %}#}
+{#              				<a class="page_all" style="pointer-events: none;"><li style="color: black">{{ i }}</li></a>#}
+{#              			{% else %}#}
+{#              				<a class="page_all" href="?page={{ i }}"><li>{{ i }}</li></a>#}
+{#              			{% endif %}#}
+{#              		{% endfor %}#}
+{#              		<a class="next"><li>&#62;</li></a>#}
+{#              		<a class="last"><li>&#62;&#62;</li></a>#}
+{#              		</ul>#}
+{#              	{% endif %}#}
+{#              </div>#}
+            </nav>
+          </div>
+        </section>
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <div id="iux-popup-dimcolor" class="iux-popup-dimcolor" style="display:none"></div>
+  </body>
+</HTML>

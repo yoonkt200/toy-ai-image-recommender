@@ -15,16 +15,14 @@ from processor.models import Image
 
 @csrf_exempt
 def Board(request):
-    #list = Image.objects.all()
-    hello = tf.constant('Hello, TensorFlow!')
-    sess = tf.Session()
-    tensor = str(sess.run(hello))
-    return render(request, 'pages/board/board.html', {'tensor': tensor})
+    images = Image.objects.all()
+    return render(request, 'pages/board/board.html', {'images': images})
 
 
 @csrf_exempt
 def GetImage(request):
-    files = request.FILES.getlist('file')
-    print (files)
+    files = request.FILES['file']
+    title = request.FILES['file'].name
+    Image.createImage(title, files)
 
-    return HttpResponseRedirect('/board')
+    return JsonResponse({'result': 'success'})

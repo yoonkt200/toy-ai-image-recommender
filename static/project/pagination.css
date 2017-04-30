@@ -1,0 +1,8 @@
+.pagination selected > div > ul > a > li, .pagination > div > ul > a > li:hover {
+  color: #323232;
+}
+
+.pagination > div > ul > a > li {
+  border-radius: 50%;
+  color: #ffffff;
+}

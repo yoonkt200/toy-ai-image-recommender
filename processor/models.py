@@ -65,12 +65,6 @@ class PathAndRename(object):
         name = filename.split('.')[0]
         ext = filename.split('.')[-1]
 
-        if instance.member.id:
-            filename = '{}.{}'.format(str(instance.member.id) + "_" + str(now.second) + "_" + name, ext)
-        else:
-            # set filename as random string
-            filename = '{}.{}'.format(uuid4().hex, ext)
-
         filepath = self.path + now.strftime("/%Y/%m/%d/%H/%M")
         return os.path.join(filepath, filename)
 
@@ -87,6 +81,24 @@ class Image(TimeStampedModel):
                                   height_field="height_field", width_field="width_field")
     height_field = models.IntegerField(null=True, default=0)
     width_field = models.IntegerField(null=True, default=0)
+    descriptor = models.ManyToManyField('processor.Descriptor')
 
     def __str__(self):
         return self.title
+
+    @staticmethod
+    def createImage(title, image):
+        thumbnailImg = imgToThumbnail(image, force=True)
+        newImage = Image.objects.create(title=title, imageFile=image, thumbnailImg=thumbnailImg)
+        # # Descriptor 분석해서 오브젝트 생성하는 코드 삽입
+        newImage.save()
+        return newImage
+
+
+class Descriptor(models.Model):
+    tag = models.CharField(max_length=200)
+    keyPoint_1 = models.IntegerField(default=0)
+    keyPoint_2 = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.tag
