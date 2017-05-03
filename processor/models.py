@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from django.db import models
 
 import datetime
@@ -93,6 +95,24 @@ class Image(TimeStampedModel):
         # # Descriptor 분석해서 오브젝트 생성하는 코드 삽입
         newImage.save()
         return newImage
+
+    @staticmethod
+    def getImageListBySearch(searchText):
+        # 태그로 검색
+        # 디스크립터들이 물고있는 이미지를 빼내기 위한 작업
+        id_list = []
+        descriptors = Descriptor.objects.filter(tag=searchText)
+        for index, descriptor in enumerate(descriptors):
+            imageIdlist_ObjSet = descriptor.image_set.all().values('id')
+            for index, obj in enumerate(imageIdlist_ObjSet):
+                id_list.append(obj['id'])
+
+        # 리스트 내 중복 제거
+        id_list = list(set(id_list))
+        # 태그검색 + 이미지 제목 검색
+        images = Image.objects.filter(Q(pk__in=id_list) | Q(title__contains=searchText))
+
+        return images.order_by('-created')
 
 
 class Descriptor(models.Model):
