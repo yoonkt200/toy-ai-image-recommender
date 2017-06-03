@@ -195,7 +195,7 @@ def main(_):
   maybe_download_and_extract()
   # print(FLAGS.image_file)
   # print(FLAGS.model_dir)
-  image = "/Users/yoon/Documents/catt.jpg"
+  image = "/home/ubuntu/ImageClassifier/catt.jpg"
   # image = (FLAGS.image_file if FLAGS.image_file else
   #          os.path.join(FLAGS.model_dir, 'cropped_panda.jpg'))
   run_inference_on_image(image)
