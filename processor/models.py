@@ -3,10 +3,16 @@
 from django.db import models
 
 import datetime
+import json
 from django.db.models import Q
 from uuid import uuid4
 from django.utils.deconstruct import deconstructible
 import os
+
+import cv2
+from skimage.feature import hog
+from skimage import data, color, exposure
+import numpy as np
 
 from io import BytesIO
 from io import StringIO
@@ -74,16 +80,21 @@ pF_path_and_rename = PathAndRename("projects")
 pI_path_and_rename = PathAndRename("media")
 
 
+def getFirstKey(item):
+    return item[0]
+
+
 #프로젝트 정보를 담고있는 클래스
 class Image(TimeStampedModel):
     title = models.CharField(max_length=200)
+    label = models.CharField(max_length=200, default="", blank=True, null=True)
     imageFile = models.ImageField(blank=True, null=True, upload_to=pI_path_and_rename, default=None,
                                   height_field="height_field", width_field="width_field")
     thumbnailImg = models.ImageField(blank=True, null=True, upload_to=pF_path_and_rename, default=None,
                                   height_field="height_field", width_field="width_field")
     height_field = models.IntegerField(null=True, default=0)
     width_field = models.IntegerField(null=True, default=0)
-    descriptor = models.ManyToManyField('processor.Descriptor')
+    # hog_descriptor = models.CharField(max_length=20000, default="")
 
     def __str__(self):
         return self.title
@@ -91,34 +102,60 @@ class Image(TimeStampedModel):
     @staticmethod
     def createImage(title, image):
         thumbnailImg = imgToThumbnail(image, force=True)
+        # hog_descriptor = Image.createHOGinfo(image)
         newImage = Image.objects.create(title=title, imageFile=image, thumbnailImg=thumbnailImg)
-        # # Descriptor 분석해서 오브젝트 생성하는 코드 삽입
         newImage.save()
         return newImage
 
     @staticmethod
-    def getImageListBySearch(searchText):
-        # 태그로 검색
-        # 디스크립터들이 물고있는 이미지를 빼내기 위한 작업
-        id_list = []
-        descriptors = Descriptor.objects.filter(tag=searchText)
-        for index, descriptor in enumerate(descriptors):
-            imageIdlist_ObjSet = descriptor.image_set.all().values('id')
-            for index, obj in enumerate(imageIdlist_ObjSet):
-                id_list.append(obj['id'])
+    def getSimilarColorHistogramImage(latestImage):
+        input_image = pil.open(latestImage.imageFile)
+        input_image = np.asarray(input_image)
 
-        # 리스트 내 중복 제거
-        id_list = list(set(id_list))
-        # 태그검색 + 이미지 제목 검색
-        images = Image.objects.filter(Q(pk__in=id_list) | Q(title__contains=searchText))
+        input_hist = cv2.calcHist([input_image], [0, 1, 2], None, [8, 8, 8], [0, 256, 0, 256, 0, 256])
+        input_hist = cv2.normalize(input_hist, input_hist)
 
+        images = Image.objects.filter(label=latestImage.label).exclude(id=latestImage.id)
+        result_list = []
+
+        for index, img in enumerate(images):
+            itImg = pil.open(img.imageFile)
+            itImg = np.asarray(itImg)
+
+            hist = cv2.calcHist([itImg], [0, 1, 2], None, [8, 8, 8], [0, 256, 0, 256, 0, 256])
+            hist = cv2.normalize(hist, hist)
+
+            compHist = cv2.compareHist(hist, input_hist, 2)
+            result_list.append([compHist, img.id])
+
+        result_list = sorted(result_list, key=getFirstKey, reverse=True)
+        obj_idList = []
+        for index, result in enumerate(result_list):
+            obj_idList.append(result[1])
+
+        objs = Image.objects.filter(pk__in=obj_idList)
+        qs_sorted = list()
+        for id in obj_idList:
+            qs_sorted.append(objs.get(id=id))
+
+        return qs_sorted
+
+
+    # @staticmethod
+    # def createHOGinfo(imageFile):
+    #     image = pil.open(imageFile)
+    #     image = np.asarray(image)
+    #     image = color.rgb2gray(image)
+    #     image = cv2.resize(image, (256, 256))
+    #     fd, hog_image = hog(image, orientations=8, pixels_per_cell=(16, 16), cells_per_block=(1, 1),
+    #                         block_norm="L2-Hys",
+    #                         visualise=True)
+    #     fd = np.float32(fd)
+    #     fd = unicode(fd, errors='replace')
+    #     fd = fd.tostring()
+    #     return fd
+
+    @staticmethod
+    def getImageListBySearch(label, searchText):
+        images = Image.objects.filter(Q(label__contains=label) | Q(title__contains=searchText))
         return images.order_by('-created')
-
-
-class Descriptor(models.Model):
-    tag = models.CharField(max_length=200)
-    keyPoint_1 = models.IntegerField(default=0)
-    keyPoint_2 = models.IntegerField(default=0)
-
-    def __str__(self):
-        return self.tag
