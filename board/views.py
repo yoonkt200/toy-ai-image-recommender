@@ -24,7 +24,7 @@ from processor.models import Image
 def Board(request):
     searchText = request.GET.get('search', None)
     if searchText is not None:
-        images = Image.getImageListBySearch(searchText)
+        images = Image.getImageListBySearch(searchText, searchText)
 
         # 검색결과 있을때
         if images:
