@@ -2,211 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c812fd2c-28ee-43a6-bd98-dc8d10081f28" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/07/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/10/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/10/스크린샷_2017-04-28_오후_11.47.31_A7QnwfF.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/13/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/18/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/19/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/20/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/01/01/22/스크린샷_2017-04-28_오후_11.47.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/03/17/56/산.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/03/18/24/산.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/05/03/19/34/306475959_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/07/15/13/스크린샷_2017-06-06_오후_9.59.54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/01/16/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/01/17/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/01/20/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/01/26/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/09/image_input.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/10/image_input.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/10/image_outer_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/53/스크린샷_2017-06-06_오후_9.59.54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/54/스크린샷_2017-06-06_오후_9.57.31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/54/스크린샷_2017-06-06_오후_9.59.54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/55/스크린샷_2017-06-06_오후_9.59.54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/57/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/57/스크린샷_2017-06-06_오후_9.57.18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/58/스크린샷_2017-06-06_오후_9.57.24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/02/59/스크린샷_2017-06-06_오후_9.59.54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/01/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/08/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/12/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/14/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/15/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/15/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/16/alarm-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/16/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/16/stopwatch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/17/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/18/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/19/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/19/cat1_wJqesS4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/19/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/20/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/20/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/22/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/22/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/23/cat2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/23/cat2_dUPg9iz.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/24/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/25/image_knit_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/25/image_knit_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/25/image_knit_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/25/image_knit_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/26/image_knit_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/28/image_knit_44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/28/image_knit_44_v5OjtJm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/29/image_knit_89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/39/image_knit_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/40/image_knit_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/42/image_knit_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/47/image_knit_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/50/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/52/image_knit_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/53/image_knit_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/03/53/image_knit_7_ocOAxWa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/41/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/46/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/47/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/49/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/52/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/53/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/56/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/57/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/59/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/19/59/스크린샷_2017-06-06_오후_9.48.11_YyX9r7h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/02/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/04/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/05/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/06/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/07/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/08/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/10/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/11/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/12/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/13/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/15/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/17/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/20/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/20/스크린샷_2017-06-06_오후_9.48.11_uU0IXUq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/21/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/22/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/24/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/24/스크린샷_2017-06-06_오후_9.48.11_e7QngNb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/27/스크린샷_2017-06-06_오후_9.48.11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/28/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/29/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/29/스크린샷_2017-06-06_오후_9.57.09_WiYKhU2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/30/스크린샷_2017-06-06_오후_9.57.18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/38/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/39/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/39/스크린샷_2017-06-06_오후_9.57.18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/39/스크린샷_2017-06-06_오후_9.57.18_Euo4AjW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/40/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/43/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/47/스크린샷_2017-06-06_오후_9.57.09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/08/20/48/스크린샷_2017-06-06_오후_9.57.18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/01/01/19/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/01/01/20/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/01/01/22/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/03/17/56/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/03/18/24/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/05/03/19/34/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/07/15/13/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/01/16/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/01/17/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/01/20/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/01/26/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/09/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/10/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/10/thumbnail_LKV08Is.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/53/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/54/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/54/thumbnail_HNTEMmL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/55/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/57/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/57/thumbnail_4SpzPkp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/58/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/02/59/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/01/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/08/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/12/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/14/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/15/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/15/thumbnail_fyD0rb5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/16/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/16/thumbnail_OqDoZEx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/16/thumbnail_Q7fHrXe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/17/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/18/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/19/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/19/thumbnail_GG9K1lo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/19/thumbnail_k6KmYby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/20/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/20/thumbnail_kgtKzmJ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/22/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/22/thumbnail_2P336EI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/23/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/23/thumbnail_7DZmfMw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/24/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/25/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/25/thumbnail_34fgrbW.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/25/thumbnail_pCtSe3R.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/25/thumbnail_vqREKZu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/26/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/28/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/28/thumbnail_Zn8GsDi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/29/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/39/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/40/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/42/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/47/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/50/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/52/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/53/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/03/53/thumbnail_gbPfnIT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/41/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/46/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/47/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/49/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/52/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/53/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/56/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/57/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/59/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/19/59/thumbnail_lFdeWlo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/02/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/04/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/05/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/06/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/07/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/08/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/10/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/11/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/12/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/13/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/15/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/17/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/20/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/20/thumbnail_XKeKkQE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/21/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/22/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/24/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/24/thumbnail_1nnJKmY.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/27/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/28/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/29/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/29/thumbnail_4wdt5K8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/30/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/38/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/39/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/39/thumbnail_FKxwgbx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/39/thumbnail_TjuBjPW.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/40/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/43/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/47/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/projects/2017/06/08/20/48/thumbnail.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/retraining.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/board/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+            <state relative-caret-position="391">
+              <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
               <folding>
                 <element signature="e#25#36#0" expanded="true" />
               </folding>
@@ -267,8 +64,8 @@
       <file leaf-file-name="retrain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retrain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#114#132#0" expanded="true" />
               </folding>
@@ -276,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main.py">
+      <file leaf-file-name="retraining.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retraining.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1227">
-              <caret line="800" column="42" lean-forward="false" selection-start-line="800" selection-start-column="42" selection-end-line="800" selection-end-column="42" />
+            <state relative-caret-position="15300">
+              <caret line="1041" column="54" lean-forward="false" selection-start-line="1041" selection-start-column="54" selection-end-line="1041" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -707,16 +504,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22893773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22893773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -725,7 +524,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1066,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/board/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processor/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1094,21 +882,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/retraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15300">
+          <caret line="1041" column="54" lean-forward="false" selection-start-line="1041" selection-start-column="54" selection-end-line="1041" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/retrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#114#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/board/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="800" column="42" lean-forward="false" selection-start-line="800" selection-start-column="42" selection-end-line="800" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
