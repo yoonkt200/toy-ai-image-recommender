@@ -227,3 +227,54 @@
 # cv2.imshow("input_img",input_img);
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
+
+# import cv2
+# import csv
+# from skimage.feature import hog
+# from skimage import data, color, exposure
+# import numpy as np
+#
+# CSV_PATH="/Users/eelhea/Desktop/hog_descriptor.csv"
+# matrix = []
+#
+# inputimg = cv2.imread('image_input.jpg')
+# image = color.rgb2gray(inputimg)
+# image = cv2.resize(image, (256, 256))
+# fd, hog_image = hog(image, orientations=8, pixels_per_cell=(16, 16), cells_per_block=(1, 1), block_norm="L2-Hys", visualise=True)
+# hog_image = np.float32(hog_image)
+# fd = np.float32(fd)
+# result_array = []
+#
+# def getKey(item):
+#     return item[0]
+#
+#
+# f = open(CSV_PATH, 'r')
+#
+# csvReader = csv.reader(f)
+#
+# for temp_row in csvReader:
+#     row = temp_row.split(",")
+#     matrix.append([row[0],row[1]])
+#
+# f.close()
+#
+#
+# for i in range (0,len(matrix)):
+#     fd2 = matrix[i][0]
+#     id = matrix[i][1]
+#
+#     hog_result = [cv2.compareHist(fd, fd2, 0),id]
+#     result_array.append(hog_result)
+#
+#
+# result_array = sorted(result_array, key=getKey)
+#
+# with open(CSV_PATH, 'a') as csvfile:
+#     writer = csv.writer(csvfile, delimiter=',')
+#     writer.writerrow()
+#
+#
+# for x in result_array:
+#     print (x)

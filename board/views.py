@@ -37,7 +37,9 @@ def Board(request):
     else:
         searchText = 'none'
         images = Image.objects.all().order_by('-created')
-        images = Image.getSimilarColorHistogramImage(images.first())
+        input_image = images.first()
+        obj_idList = Image.compareHOGinfo(input_image)
+        images = Image.getSimilarColorHistogramImage(obj_idList, input_image)
         page_data = Paginator(images, 12)
         page = request.GET.get('page')
 
