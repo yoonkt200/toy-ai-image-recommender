@@ -1,7 +1,0 @@
-knit
-outer
-pants
-shirts
-skirt
-suit
-tee
