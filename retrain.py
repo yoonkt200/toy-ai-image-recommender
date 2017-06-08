@@ -5,9 +5,9 @@
 import numpy as np
 import tensorflow as tf
 
-imagePath = '/Users/yoon/Downloads/sweat.jpeg'                                                # 추론을 진행할 이미지 경로
-modelFullPath = '/tmp/output_graph.pb'                                      # 읽어들일 graph 파일 경로
-labelsFullPath = '/tmp/output_labels.txt'                                   # 읽어들일 labels 파일 경로
+imagePath = '/Users/yoon/Downloads/sweat.jpeg'
+modelFullPath = '/tmp/output_graph.pb'
+labelsFullPath = '/tmp/output_labels.txt'
 
 
 def create_graph():
@@ -27,6 +27,7 @@ def run_inference_on_image():
         return answer
 
     image_data = tf.gfile.FastGFile(imagePath, 'rb').read()
+    print (type(image_data))
 
     # 저장된(saved) GraphDef 파일로부터 graph를 생성한다.
     create_graph()

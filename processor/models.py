@@ -14,6 +14,7 @@ import cv2
 from skimage.feature import hog
 from skimage import data, color, exposure
 import numpy as np
+import tensorflow as tf
 
 from io import BytesIO
 from io import StringIO
@@ -21,19 +22,61 @@ from PIL import Image as pil
 from django.core.files.uploadedfile import InMemoryUploadedFile
 
 
+modelFullPath = '/tmp/output_graph.pb'
+labelsFullPath = '/tmp/output_labels.txt'
+
 CSV_PATH = "/Users/yoon/Documents/hog_descriptor.csv"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/uploads"
 
 
-class TimeStampedModel(models.Model):
-    created = models.DateTimeField(auto_now_add=True)
-    modified = models.DateTimeField(auto_now=True)
+def create_graph():
+    """저장된(saved) GraphDef 파일로부터 graph를 생성하고 saver를 반환한다."""
+    # 저장된(saved) graph_def.pb로부터 graph를 생성한다.
+    with tf.gfile.FastGFile(modelFullPath, 'rb') as f:
+        graph_def = tf.GraphDef()
+        graph_def.ParseFromString(f.read())
+        _ = tf.import_graph_def(graph_def, name='')
 
-    class Meta:
-        abstract = True
 
+def run_inference_on_image(imagePath):
+    answer = None
 
-def getKey(item):
-    return item[0]
+    if not tf.gfile.Exists(imagePath):
+        tf.logging.fatal('File does not exist %s', imagePath)
+        return answer
+
+    image_data = tf.gfile.FastGFile(imagePath, 'rb').read()
+
+    # 저장된(saved) GraphDef 파일로부터 graph를 생성한다.
+    create_graph()
+
+    with tf.Session() as sess:
+
+        softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
+        predictions = sess.run(softmax_tensor,
+                               {'DecodeJpeg/contents:0': image_data})
+        predictions = np.squeeze(predictions)
+
+        # 가장 높은 확률을 가진 5개(top 5)의 예측값(predictions)을 얻는다.
+        top_k = predictions.argsort()[-5:][::-1]
+        f = open(labelsFullPath, 'rb')
+        lines = f.readlines()
+        labels = [str(w).replace("\n", "") for w in lines]
+        for node_id in top_k:
+            human_string = labels[node_id]
+            score = predictions[node_id]
+            print('%s (score = %.5f)' % (human_string, score))
+
+        answer = []
+        for i in range(0, 5):
+            rank = labels[top_k[i]][1:]
+            rank = rank.replace("'", "")
+            rank = rank.replace("'", "")
+            rank = rank.replace("n", "")
+            rank = rank.replace("\\", "")
+            answer.append(rank)
+
+        return answer
 
 
 def strProcessing(hog_str):
@@ -114,6 +157,14 @@ def getFirstKey(item):
     return item[0]
 
 
+class TimeStampedModel(models.Model):
+    created = models.DateTimeField(auto_now_add=True)
+    modified = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        abstract = True
+
+
 # 이미지 정보를 담고있는 모델
 class Image(TimeStampedModel):
     title = models.CharField(max_length=200)
@@ -184,7 +235,7 @@ class Image(TimeStampedModel):
             hog_result = [cv2.compareHist(input_hog, matrix_hog, 0), id]
             result_list.append(hog_result)
 
-        result_list = sorted(result_list, key=getKey, reverse=True)
+        result_list = sorted(result_list, key=getFirstKey, reverse=True)
         obj_idList = []
         for index, result in enumerate(result_list):
             obj_idList.append(result[1])
@@ -211,6 +262,11 @@ class Image(TimeStampedModel):
                             visualise=True)
         fd = np.float32(fd)
         return fd
+
+    @staticmethod
+    def getImageLabelByCNN(image):
+        answer = run_inference_on_image(BASE_DIR + "/" + str(image.imageFile))
+        print (answer)
 
     # 라벨로 이미지를 검색하는 함수
     @staticmethod
