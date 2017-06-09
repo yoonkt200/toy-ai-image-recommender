@@ -40,7 +40,6 @@ def Board(request):
         input_image = images.first()
         obj_idList = Image.compareHOGinfo(input_image)
         images = Image.getSimilarColorHistogramImage(obj_idList, input_image)
-        Image.getImageLabelByCNN(input_image)
         page_data = Paginator(images, 12)
         page = request.GET.get('page')
 
@@ -65,6 +64,7 @@ def Board(request):
 def GetImage(request):
     files = request.FILES['file']
     title = request.FILES['file'].name
-    Image.createImage(title, files)
+    image = Image.createImage(title, files)
+    result_image = Image.getImageLabelByCNN(image)
 
     return JsonResponse({'result': 'success'})

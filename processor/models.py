@@ -25,7 +25,7 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 modelFullPath = '/tmp/output_graph.pb'
 labelsFullPath = '/tmp/output_labels.txt'
 
-CSV_PATH = "/Users/yoon/Documents/hog_descriptor.csv"
+CSV_PATH = "/Users/yoon/Documents/ImageClassifier/hog_descriptor.csv"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/uploads"
 
 
@@ -62,19 +62,7 @@ def run_inference_on_image(imagePath):
         f = open(labelsFullPath, 'rb')
         lines = f.readlines()
         labels = [str(w).replace("\n", "") for w in lines]
-        for node_id in top_k:
-            human_string = labels[node_id]
-            score = predictions[node_id]
-            print('%s (score = %.5f)' % (human_string, score))
-
-        answer = []
-        for i in range(0, 5):
-            rank = labels[top_k[i]][1:]
-            rank = rank.replace("'", "")
-            rank = rank.replace("'", "")
-            rank = rank.replace("n", "")
-            rank = rank.replace("\\", "")
-            answer.append(rank)
+        answer = labels[top_k[0]][2:][:-3]
 
         return answer
 
@@ -87,14 +75,15 @@ def strProcessing(hog_str):
     return hog_str
 
 
-def readCSV_HOGinfo():
+def readCSV_HOGinfo(label):
     f = open(CSV_PATH, 'r')
     csvReader = csv.reader(f, delimiter=',')
 
     matrix = []
 
     for temp_row in csvReader:
-        matrix.append(np.array(temp_row))
+        if len(temp_row) != 0 and temp_row[2] == label:
+            matrix.append(np.array(temp_row))
 
     f.close()
 
@@ -223,7 +212,12 @@ class Image(TimeStampedModel):
     # csv 파일의 HOG descriptor 들과 input 이미지의 descriptor 를 비교하여 랭크를 매기는 함수
     @staticmethod
     def compareHOGinfo(input_image):
-        matrix = readCSV_HOGinfo()
+        # input_hog = Image.createHOGinfo(input_image.imageFile)
+        # with open(CSV_PATH, 'a') as csvfile:
+        #     writer = csv.writer(csvfile, delimiter=',')
+        #     writer.writerow([input_hog.tolist(), input_image.id, input_image.label])
+
+        matrix = readCSV_HOGinfo(input_image.label)
         input_hog = Image.createHOGinfo(input_image.imageFile)
         result_list = []
 
@@ -240,10 +234,12 @@ class Image(TimeStampedModel):
         for index, result in enumerate(result_list):
             obj_idList.append(result[1])
 
-        if obj_idList:
-            with open(CSV_PATH, 'a') as csvfile:
-                writer = csv.writer(csvfile, delimiter=',')
-                writer.writerow([input_hog.tolist(), input_image.id])
+        with open(CSV_PATH, 'a') as csvfile:
+            writer = csv.writer(csvfile, delimiter=',')
+            input_hog_list = ['%.4f' % elem for elem in input_hog.tolist()]
+            input_hog_list = [float(elem) for elem in input_hog_list]
+            writer.writerow([])
+            writer.writerow([input_hog_list, input_image.id, input_image.label.strip()])
 
         if len(obj_idList) < 60:
             return obj_idList
@@ -266,7 +262,9 @@ class Image(TimeStampedModel):
     @staticmethod
     def getImageLabelByCNN(image):
         answer = run_inference_on_image(BASE_DIR + "/" + str(image.imageFile))
-        print (answer)
+        image.label = answer
+        image.save()
+        return image
 
     # 라벨로 이미지를 검색하는 함수
     @staticmethod

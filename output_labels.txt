@@ -1,0 +1,29 @@
+blouson
+collaredshirts
+cottenpants
+denimpants
+hoddie
+joggerpants trainingpants
+knit
+ladderjacket
+longheavyouter
+longsleeve
+nylonjacket
+onepiece
+paddingvest
+safarijacket
+shirts blouse
+shortheavyouter
+shortpants
+shortsleeve
+skirt
+slacks
+sleeveless
+springandfallcoat
+stadiumjacket
+suit
+sweatshirts
+trackerjacket
+vest
+wintercoat
+wintersinglecoat
