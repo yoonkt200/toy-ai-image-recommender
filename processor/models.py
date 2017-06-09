@@ -22,10 +22,10 @@ from PIL import Image as pil
 from django.core.files.uploadedfile import InMemoryUploadedFile
 
 
-modelFullPath = '/tmp/output_graph.pb'
-labelsFullPath = '/tmp/output_labels.txt'
+modelFullPath = '/home/ubuntu/ImageClassifier/output_graph.pb'
+labelsFullPath = '/home/ubuntu/ImageClassifier/output_labels.txt'
 
-CSV_PATH = "/Users/yoon/Documents/ImageClassifier/hog_descriptor.csv"
+CSV_PATH = "/home/ubuntu/ImageClassifier/hog_descriptor.csv"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/static/uploads"
 
 

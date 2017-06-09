@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c812fd2c-28ee-43a6-bd98-dc8d10081f28" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/28/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/28/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/30/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/30/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/32/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/32/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/35/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/35/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/36/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/36/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/37/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/37/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/41/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/41/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/43/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/43/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/44/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/44/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/45/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/45/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/47/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/47/sweat_456FbH3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/47/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/47/thumbnail_TmXFfMI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/50/sweat.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/uploads/media/2017/06/09/04/50/thumbnail.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board/views.py" afterPath="$PROJECT_DIR$/board/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/models.py" afterPath="$PROJECT_DIR$/processor/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +29,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/processor/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state relative-caret-position="319">
+              <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
               <folding>
                 <element signature="e#25#53#0" expanded="true" />
               </folding>
@@ -520,8 +491,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23626374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23626374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -917,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="69" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="319">
+          <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
           <folding>
             <element signature="e#25#53#0" expanded="true" />
           </folding>
